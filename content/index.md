@@ -1,6 +1,6 @@
 ---
-Title: Home
-Description: This is our index page.
+Title: Erik Olofsson
+Description: Lite om mig.
 ---
 
 Home page
