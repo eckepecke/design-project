@@ -1,0 +1,55 @@
+.nav{
+    a {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        padding-right: 1em;
+    }
+
+    a:hover {
+        color: $font-alternative-color;
+        transform: scale(1.2);
+    }
+
+    .active {
+        background-color: $accent-color;
+        color: #000;
+        font-weight: bold;
+        font-size: larger;
+    }
+}
+
+.header, .site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Title */
+
+.logo {
+    padding: 3em 3em 3em 0;
+    max-width: 15vw;
+}
+
+@media (max-width: 767px) {
+    .title, .logo {
+        padding: 1em 1em 1em 0;
+    }
+
+    .title {
+        min-width: 50%;
+    }
+
+    .logo {
+        max-width: 15vw;
+    }
+}
+
+.title {
+    * {
+        color: $font-color;
+    }
+
+    p {
+        font-style: italic;
+    }
+}

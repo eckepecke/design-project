@@ -4,8 +4,8 @@ Tagline: My portfolio.
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/eckepecke/design-project
-      icon: github
-    - title: Link till sidans github repo.
+      icon: fab fa-github
+    - title: Link till bästa pokerspelet.
       url: https://www.winamax.fr/en/poker-school_rules_pot-limit-omaha-4-card
-      icon: diamond
+      icon: fas fa-heart
 ---

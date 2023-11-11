@@ -1,9 +1,9 @@
 <div class="header" role="banner">
     <div class="site-header">
         {% if pages["_meta"].meta.logo %}
-        <div class="logo">
+        <div>
             <a href="{{ base_url }}">
-                <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="" />
+                <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="" class="logo" />
             </a>
         </div>
         {% endif %}
