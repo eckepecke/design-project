@@ -1,14 +1,17 @@
-
-.nav{
+.nav {
     a {
-        color: #e0e0e0;
-        font-size: 15px;
+        color: $font-color !important; /* Update with actual color or variable */
+        font-size: 15px; /* Add unit for font size */
         padding-right: 1em;
         transition: all 0.3s ease;
     }
 
+    li {
+        color: $font-color; /* Update with actual color or variable */
+    }
+
     a:hover {
-        color: #000;
+        color: $font-alternative-color;
         transform: scale(1.2);
         font-size: 18px;
     }
@@ -31,6 +34,7 @@
 .logo {
     padding: 3em 3em 3em 0;
     max-width: 15vw;
+    filter: grayscale(30%);
 }
 
 @media (max-width: 767px) {

@@ -1,0 +1,14 @@
+p {
+    font-family: $main-font;
+    color: $font-color
+}
+
+h1,
+h2,
+h3 {
+    font-family: $header-font;
+}
+
+a {
+    color: $dark-code-link-color;
+}

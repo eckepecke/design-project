@@ -1,15 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Raleway:wght@500&display=swap');
 
 $header-font: 'Raleway', sans-serif;
 $main-font: 'Merriweather', serif;
 $font-color: #242424;
 $font-alternative-color: #fff;
-$accent-color: #ee3102;
-$background-color: #ff9b30;
-$background-alternative-color: #f5f3ed;
+$accent-color: #FADF50;
+$background-color: #FA7C50;
+$background-gradient: linear-gradient(#FAB64F, #FACA50);
+$background-alternative-color: #FAB64F;
 $border: 2px solid #000;
-$main-margin: 2em;
+$margin-top: 2em;
+$margin-side: 4em;
+$margin-bottom: 2em;
 $padding: 40px;
 $box-shadow: 10px 10px rgb(0, 0, 0);
 $small-box-shadow: 6px 6px rgb(0, 0, 0);
 $small-box-shadow-orange: 6px 6px #ff9b30;
+$box-dark-color: #FA9950;
+$box-dark-hover-color: #FADF50;
