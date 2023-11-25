@@ -10,9 +10,10 @@ p {
 }
 
 .picture {
-    max-width: 40vw;
     border: $border;
     box-sizing: border-box;
+    max-width: 40vw;
+    margin-bottom: 0.5em;
     float: left; 
     margin-right: 20px;
     filter: grayscale(30%);
