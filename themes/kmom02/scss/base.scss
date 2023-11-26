@@ -54,6 +54,28 @@ body {
     background: $background-gradient;
     border: $border;
     box-shadow: $box-shadow;
+    @media (max-width: 600px) {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+.color-table {
+    width: 100%;
+    border-spacing: 4px;
+    border-collapse: separate;
+
+    td {
+        height: 50px;
+        width: 50px;
+    }
+
+    @media (max-width: 600px) {
+        td {
+            width: 25%; /* Adjust the width as needed for your design */
+            box-sizing: border-box;
+        }
+    }
 }
 
 .header, .footer {
@@ -79,8 +101,8 @@ p, td, th, li, dd {
     text-align: justify;
     overflow-wrap: break-word;
     word-wrap: break-word;
-    padding-left: $padding;/* I added this */
-    padding-right: $padding;/* I added this */
+    //padding-left: $padding;/* I added this */
+    //padding-right: $padding;/* I added this */
 }
 
 h1, h2, h3, h4, h5, h6 {

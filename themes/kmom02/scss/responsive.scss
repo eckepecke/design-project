@@ -1,0 +1,17 @@
+.color-table {
+    width: 100%;
+    border-spacing: 4px;
+    border-collapse: separate;
+
+    td {
+        height: 50px;
+        width: 50px;
+    }
+
+    @media (max-width: 600px) {
+        td {
+            width: 25%; /* Adjust the width as needed for your design */
+            box-sizing: border-box;
+        }
+    }
+}
