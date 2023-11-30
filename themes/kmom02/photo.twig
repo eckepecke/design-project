@@ -1,0 +1,17 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="main" role="main">
+        <div class="gallery">
+            <picture class="img-container">
+                <img class="gallery-pic" src="{{ base_url }}/image/{{ imageName }}" alt="photo">
+            </picture>
+        </div>
+    </div>
+    
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>

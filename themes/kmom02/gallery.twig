@@ -1,0 +1,110 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="main" role="main">
+        <div class="gallery">
+            <picture class="img-container">
+                <source media="(min-width: 668px)" srcset="image/kyoto3.jpg">
+                <source media="(min-width: 376px)" srcset="image/kyoto3.jpg?w=667">
+                <source media="(min-width: 376px)" srcset="image/kyoto3.jpg?w=667">
+                <a href="{{ base_url }}/assets/img/kyoto3.jpg">
+                <img class="gallery-pic" src="{{ base_url }}/image/kyoto3.jpg?w=375&h=375&crop-to-fit&q=50" alt="kyoto">
+                </a>
+            </picture>
+
+            <picture class="img-container">
+                <source media="(min-width: 668px)" srcset="image/a_japan.jpg">
+                <source media="(min-width: 376px)" srcset="image/a_japan.jpg?w=667">
+                <a href="{{ base_url }}/assets/img/a_japan.jpg">
+                <img class="gallery-pic" src="{{ base_url }}/image/a_japan.jpg?w=375&h=375&crop-to-fit&q=50" alt="japan">
+                </a>
+            </picture>
+            <picture class="img-container">
+                <source media="(min-width: 668px)" srcset="image/sake.jpg">
+                <source media="(min-width: 376px)" srcset="image/sake.jpg?w=667">
+                <a href="{{ base_url }}/assets/img/sake.jpg">
+                <img class="gallery-pic" src="{{ base_url }}/image/sake.jpg?w=375&h=375&crop-to-fit&q=50" alt="sake">
+                </a>
+            </picture>
+
+            <picture class="img-container">
+                <source media="(min-width: 668px)" srcset="image/kyoto.jpg">
+                <source media="(min-width: 376px)" srcset="image/kyoto.jpg?w=667">
+                <a href="{{ base_url }}/assets/img/kyoto.jpg">
+                <img class="gallery-pic" src="{{ base_url }}/image/kyoto.jpg?w=375&h=375&crop-to-fit&q=50" alt="kyoto">
+                </a>
+            </picture>
+
+            <picture class="img-container">
+                <source media="(min-width: 668px)" srcset="image/kyoto2.jpg">
+                <source media="(min-width: 376px)" srcset="image/kyoto2.jpg?w=667">
+                <a href="{{ base_url }}/assets/img/kyoto2.jpg">
+                <img class="gallery-pic" src="{{ base_url }}/image/kyoto2.jpg?w=375&h=375&crop-to-fit&q=50" alt="kyoto">
+                </a>
+            </picture>
+
+            <picture class="img-container">
+                <source media="(min-width: 668px)" srcset="image/deer2.jpg">
+                <source media="(min-width: 376px)" srcset="image/deer2.jpg?w=667">
+                <a href="{{ base_url }}/assets/img/deer2.jpg">
+                <img class="gallery-pic" src="{{ base_url }}/image/deer2.jpg?w=375&h=375&crop-to-fit&q=50" alt="deer">
+                </a>
+            </picture>
+
+            <picture class="img-container">
+                <source media="(min-width: 668px)" srcset="image/gold.jpg">
+                <source media="(min-width: 376px)" srcset="image/gold.jpg?w=667">
+                <a href="{{ base_url }}/assets/img/gold.jpg">
+                <img class="gallery-pic" src="{{ base_url }}/image/gold.jpg?w=375&h=375&crop-to-fit&q=50" alt="gold">
+                </a>
+            </picture>
+
+            <picture class="img-container">
+                <source media="(min-width: 668px)" srcset="image/osaka.jpg">
+                <source media="(min-width: 376px)" srcset="image/osaka.jpg?w=667">
+                <a href="{{ base_url }}/assets/img/osaka.jpg">
+                <img class="gallery-pic" src="{{ base_url }}/image/osaka.jpg?w=375&h=375&crop-to-fit&q=50" alt="osaka">
+                </a>
+            </picture>
+
+            <picture class="img-container">
+                <source media="(min-width: 668px)" srcset="image/lights.jpg">
+                <source media="(min-width: 376px)" srcset="image/lights.jpg?w=667">
+                <a href="{{ base_url }}/assets/img/lights.jpg">
+                <img class="gallery-pic" src="{{ base_url }}/image/lights.jpg?w=375&h=375&crop-to-fit&q=50" alt="lights">
+                </a>
+            </picture>
+                        <picture class="img-container">
+                <source media="(min-width: 668px)" srcset="image/shrine_edit.jpg">
+                <source media="(min-width: 376px)" srcset="image/shrine_edit.jpg?w=667">
+                <a href="{{ base_url }}/assets/img/shrine_edit.jpg">
+                <img class="gallery-pic" src="{{ base_url }}/image/shrine_edit.jpg?w=375&h=375&crop-to-fit&q=50" alt="shrine">
+                </a>
+            </picture>
+                        <picture class="img-container">
+                <source media="(min-width: 668px)" srcset="image/new_deer.jpg">
+                <source media="(min-width: 376px)" srcset="image/new_deer.jpg?w=667">
+                <a href="{{ base_url }}/assets/img/new_deer.jpg">
+                <img class="gallery-pic" src="{{ base_url }}/image/new_deer.jpg?w=375&h=375&crop-to-fit&q=50" alt="deer">
+                </a>
+            </picture>
+                        <picture class="img-container">
+                <source media="(min-width: 668px)" srcset="image/tokyo.jpg">
+                <source media="(min-width: 376px)" srcset="image/tokyo.jpg?w=667">
+                <a href="{{ base_url }}/assets/img/tokyo.jpg">
+                <img class="gallery-pic" src="{{ base_url }}/image/tokyo.jpg?w=375&h=375&crop-to-fit&q=50" alt="tokyo">
+                </a>
+            </picture>
+        </div>
+        <div class="embed-container">
+            <iframe src="https://www.youtube.com/embed/3GRSbr0EYYU" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>
