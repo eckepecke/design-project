@@ -1,39 +1,44 @@
 .nav {
+
+    max-width: 1200px;
+    margin: 0 auto; 
+
     a {
-        color: $font-color !important; /* Update with actual color or variable */
-        font-size: 15px; /* Add unit for font size */
+        color: $font-color;
+        font-size: 20px;
         padding-right: 1em;
-        transition: all 0.3s ease;
+        text-decoration: none;
     }
 
     li {
-        color: $font-color; /* Update with actual color or variable */
+        color: $font-color;
     }
 
     a:hover {
-        color: $font-alternative-color;
-        transform: scale(1.2);
-        font-size: 18px;
+        color: $dark-code-link-color;
+        text-decoration: underline;
     }
 
     .active {
-        background-color: $accent-color;
-        color: #000;
+        color: $dark-code-link-color;
         font-weight: bold;
         font-size: larger;
+        text-decoration: underline;
     }
 }
 
 .header, .site-header {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Title */
 
 .logo {
     padding: 3em 3em 3em 0;
-    max-width: 15vw;
+    max-width: 200px;
     filter: grayscale(30%);
 }
 
@@ -59,4 +64,10 @@
     p {
         font-style: italic;
     }
+}
+
+.header {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }

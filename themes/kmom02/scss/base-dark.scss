@@ -12,7 +12,7 @@ p {
 .picture {
     border: $border;
     box-sizing: border-box;
-    max-width: 40vw;
+    max-width: 60%;
     margin-bottom: 0.5em;
     float: left; 
     margin-right: 20px;
@@ -54,6 +54,9 @@ body {
     margin-left: $margin-side;
     background-color: $background-alternative-color;
     border: $border;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
     box-shadow: $box-shadow;
     @media (max-width: 600px) {
         width: 100%;

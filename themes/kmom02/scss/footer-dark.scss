@@ -6,7 +6,7 @@
     padding-bottom: 20px;
 
     a, i, p {
-        color: $icon-accent-color
+        color: $icon-accent-color;
     }
 
     i {
@@ -20,6 +20,7 @@
 
     .social {
         font-size: 2rem;
+        padding-left: 2em;
     }
 
     .social a {
