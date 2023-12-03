@@ -27,6 +27,7 @@
         text-decoration: underline;
         color: $dark-code-link-color;
     }
+
     .active a {
         color: $dark-code-link-color
     }
@@ -61,11 +62,11 @@
     }
 
     .nav {
-        border: none; /* Fix: Remove the border for small screens */
+        border: 0;
     }
 
     .header {
-        border: none;
+        border: 0;
     }
 }
 
