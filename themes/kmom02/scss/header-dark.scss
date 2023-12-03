@@ -1,7 +1,9 @@
 .nav {
-
-    max-width: 1200px;
     margin: 0 auto; 
+    border-top: $border;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 
     a {
         color: $font-color;
@@ -20,10 +22,13 @@
     }
 
     .active {
-        color: $dark-code-link-color;
         font-weight: bold;
         font-size: larger;
         text-decoration: underline;
+        color: $dark-code-link-color;
+    }
+    .active a {
+        color: $dark-code-link-color
     }
 }
 
@@ -54,6 +59,14 @@
     .logo {
         max-width: 15vw;
     }
+
+    .nav {
+        border: none; /* Fix: Remove the border for small screens */
+    }
+
+    .header {
+        border: none;
+    }
 }
 
 .title {
@@ -67,7 +80,8 @@
 }
 
 .header {
-    max-width: 800px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
+    border-bottom: $border;
 }
