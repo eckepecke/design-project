@@ -20,6 +20,9 @@ Jag använder i rapporten PageSpeed Insights från Google för att mäta prestan
 
 Resultat
 -----------------------
+<div class="page-speed-container">
+<iframe style="width: 70%" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSR5E0xPwNPlZEZsHoM-TrwYyTRS644lDGmaKIrQhJ6R2LZoXGlBmF_vtVL5F2dDCcQt4wT_vGI-Fsb/pubhtml?widget=true&amp;headers=false"></iframe>
+</div>
 
 ####Friska Viljor
 
@@ -42,7 +45,7 @@ Modo Hockey leverar den absolut sämsta webbsidan av de tre idrottsklubbarna. La
 
 ![site](%assets_url%/img/real.png){.picture}
 
-Real Madrid må spela fotboll i Champions Leauge men deras webbsida spelar Division 5 Ångermanland. Hemsidan leverar bäst laddningstid av de tre men låt oss vara ärliga, allt annat hade varit en skam.  Med tanke på att detta är en av världens rikaste klubbar och har starka anledningar att visa upp sig själva på bästa sätt är det smått chockerande hur dålig prestandan är på webbplatsen. Av de tre hemsidorna är den absolut snyggast och trevligast att använda men trots det hoppades jag på något mer.
+Real Madrid må spela fotboll i Champions Leauge men deras webbsida spelar i någon slags nybörjar-liga. Hemsidan leverar bäst laddningstid av de tre men låt oss vara ärliga, allt annat hade varit en skam.  Med tanke på att detta är en av världens rikaste klubbar och har starka anledningar att visa upp sig själva på bästa sätt är det smått chockerande hur dålig prestandan är på webbplatsen. Av de tre hemsidorna är den absolut snyggast och trevligast att använda men trots det hoppades jag på något mer.
 
 
 
