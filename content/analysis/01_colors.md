@@ -22,7 +22,7 @@ Jag kommer använda mig av ColorZilla, ett Google Chrome verktyg som smidigt lå
 
 Resultat
 -----------------------
-####GG Poker
+###GG Poker
 GG Poker använder sig av framför allt 3 färger. Svart som bakgrundsfärg, guld för rubriker och rött för större knappar.
 
 GG pokers val av typsnitt består av "Roboto Condensed", Sans-serif. Både rubriker och brödtext har samma typsnitt. Den enda variationen är tjockleken.
@@ -44,7 +44,7 @@ Nedan finns ett urval från färgerna på sidan.
 </tr>
 </table>
 
-####Pokerstars
+###Pokerstars
 
 Pokerstars har i många avseenden ett liknande färgschema på sin webbplats. Vi har fortfarande framför allt svart som bakgrundsfärg. Guld är inte lika framtädande utan här är fokus på svart och rött. Webbplatsen känns mer professionell men svart och rött är trots allt roulettens färger och uppmanar till spel. De gröna knapparna bryter det röd-svart och känns uppfriskande.
 Pokerstars använder sig  typsnittet:
@@ -65,7 +65,7 @@ Nedan finns ett urval från färgerna på sidan.
 </tr>
 </table>
 
-####Svenska Spel Poker
+###Svenska Spel Poker
 
 Svenska Spel Poker kan vid en första anblick se ut att göra saker annorlunda. Här bryter Svenska Spel av med en blå bakgrund. Det är dock ingen blå som du skulle hitta hos en bank eller advokatfirma. I mitten av webbsidan är den blåa tonen någorlunda ljus men den blir mörkare och mörkare. I utkanten av sidan är den nästan helt svart och webbsidan uppfattas mörk. Precis som på GG Poker finns mycket lockas det med guld och rött.
 

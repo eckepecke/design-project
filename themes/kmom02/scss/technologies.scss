@@ -3,6 +3,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem 2rem;
     padding: 1rem;
+    background-color: $background-color
 }
 
 .landingpage h1,
@@ -62,17 +63,22 @@
 .tech-menu {
     width: 33.3%;
     height: 100vh;
-    background-color: $background-alternative-color;
+    background-color: $background-color;
     text-align: left;
     color: $font-color;
     border-right: $border;
+}
 
+.menu-option {
+    a {
+        color: $link-color;
+    }
 }
 
 .tech-content {
     width: 66.6%;
     height: 100vh;
-    background-color: $background-alternative-color;
+    background-color: $background-color;
     text-align: left;
     color: $font-color;
 }

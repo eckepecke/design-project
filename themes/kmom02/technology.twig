@@ -9,7 +9,7 @@
             <h2>Meny</h2>
             {% for page in pages("technology")|sort_by("time")|reverse if not page.hidden %}
                 <div class="menu-option">
-                    <h4><a href="{{ page.url }}">{{ page.title }}</a></h4>
+                    <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
                 </div>
             {% endfor %}
             </div>

@@ -4,7 +4,7 @@ Description: Mina rapporter.
 Template: technologies
 ---
 
-Tech
+Analysis
 ==========================
 
 <div class="small-box">

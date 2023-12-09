@@ -1,9 +1,9 @@
 code {
     margin: 0 0.1em;
     padding: 0.1em 0.2em;
-    border: 1px solid #ccc;
+    border: 1px solid $border-code-color;
     border-radius: 0.3em;
-    background: #f5f5f5;
+    background: $box-dark-color;
     font-family: monospace;
     font-size: 0.85rem;
     line-height: 1.9824;
@@ -11,9 +11,9 @@ code {
 
 pre {
     padding: 0 1em;
-    border: 1px solid #ccc;
+    border: 1px solid $border-code-color;
     border-radius: 0.3em;
-    background: #f5f5f5;
+    background: $box-dark-color;
 }
 
 pre code {
@@ -21,7 +21,7 @@ pre code {
     margin: 0;
     padding: 1.1111em 0;
     border: 0 none;
-    background: transparent;
+    background: $box-dark-color;
     overflow-x: auto;
     line-height: 1.4;
 }
